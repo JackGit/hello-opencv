@@ -40,6 +40,8 @@ LIBS += -lopencv_core2413 -lopencv_highgui2413 -lopencv_imgproc2413 -lopencv_fea
 
 write demo opencv code as in `main.cpp`, and you are ready to go.
 
+![screenshot](http://ofkyhrvda.bkt.clouddn.com/post/image/1487044716%281.png)
+
 ### references
 
 https://zahidhasan.wordpress.com/2014/08/19/qt-5-3-1-64-bit-mingw-windows/
