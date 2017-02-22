@@ -101,7 +101,9 @@ void detectAndDraw (Mat& img,
             //|CV_HAAR_FIND_BIGGEST_OBJECT
             //|CV_HAAR_DO_ROUGH_SEARCH
             |CV_HAAR_SCALE_IMAGE,
-            Size(30, 30));
+            cv::Size(smallImg.rows / 5, smallImg.rows / 5),
+            cv::Size(smallImg.rows * 2 / 3, smallImg.rows * 2 / 3)
+    );
 
 
      t = (double)cvGetTickCount() - t;
